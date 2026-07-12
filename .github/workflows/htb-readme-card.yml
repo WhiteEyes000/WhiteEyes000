@@ -1,0 +1,18 @@
+name: Update HTB Card
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+
+  workflow_dispatch:
+
+jobs:
+  update-card:
+    permissions:
+      contents: write
+
+    uses: jjimenezgarcia/htb-readme-card/.github/workflows/htb-readme-card.yml@main
+
+    with:
+      profile_id: 019c4df1-ce3e-71dc-ba11-b302c017df15
+      output_file: assets/htb-card.svg
