@@ -11,7 +11,7 @@ jobs:
     permissions:
       contents: write
 
-    uses: jjimenezgarcia/htb-readme-card/.github/workflows/htb-readme-card.yml@main
+    uses: WhiteEyes000/htb-readme-card/.github/workflows/htb-readme-card.yml@main
 
     with:
       profile_id: 019c4df1-ce3e-71dc-ba11-b302c017df15
